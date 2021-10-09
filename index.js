@@ -25,10 +25,10 @@ class Cat {
         this.sex = sex;
     }
         speak(){
-            if (this.sex = "male"){
-                console.log(`It\'s me! ${this.name}, the parrot!`)
+            if (this.sex === "male"){
+                return(`It\'s me! ${this.name}, the parrot!`)
             } else {
-        console.log(`${this.name} says squawk!`)
+        return(`${this.name} says squawk!`)
         }
 
 }
